@@ -242,7 +242,13 @@ function renderSlotsForDate(date){
     const div=document.createElement('div'); div.className='slot'; div.textContent=label;
     const iso=date+'T'+label+':00';
     if(bookedSlotsCache.includes(iso)) div.classList.add('booked');
-    else div.onclick=()=>{document.querySelectorAll('.slot').forEach(s=>s.classList.remove('selected'));div.classList.add('selected');selectedSlot=iso;updateDepositAndConfirm();};
+    else div.onclick=()=>{
+      document.querySelectorAll('.slot').forEach(s=>s.classList.remove('selected'));
+      div.classList.add('selected');
+      selectedSlot = iso;
+      updateDepositAndConfirm();
+    };
+if (selectedSlot === iso) div.classList.add('selected');
     grid.appendChild(div);
   });
 }
@@ -283,3 +289,4 @@ renderMenu(); renderCart(); updateSignedInUI(); fetchBookedSlots(bookingDate.val
 </script>
 </body>
 </html>
+
