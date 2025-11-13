@@ -41,9 +41,34 @@
   .hero-img{width:320px;height:180px;object-fit:cover;border-radius:12px;box-shadow:0 12px 28px rgba(0,0,0,0.3)}
   .muted{color:var(--muted)}
   footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
-  .slot{padding:8px;border-radius:8px;border:1px solid #ddd;text-align:center;cursor:pointer;background:#fff}
-  .slot.booked{background:#2b7be9;color:#fff;border-color:#2b7be9}
-  .slot.selected{outline:3px solid rgba(216,67,21,0.18)}
+
+  /* --- Updated slot styling --- */
+  .slot{
+    padding:8px;
+    border-radius:8px;
+    border:1px solid #ddd;
+    text-align:center;
+    cursor:pointer;
+    background:#fff;
+    transition:transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .slot:hover:not(.booked){
+    transform:scale(1.05);
+    box-shadow:0 0 8px rgba(0,0,0,0.15);
+  }
+  .slot.booked{
+    background:#2b7be9;
+    color:#fff;
+    border-color:#2b7be9;
+    cursor:not-allowed;
+  }
+  .slot.selected{
+    background:var(--accent);
+    color:#fff;
+    border-color:var(--accent);
+    transform:scale(1.1);
+    box-shadow:0 0 10px rgba(216,67,21,0.4);
+  }
 </style>
 </head>
 <body class="animateGrad">
@@ -245,10 +270,9 @@ function renderSlotsForDate(date){
     else div.onclick=()=>{
       document.querySelectorAll('.slot').forEach(s=>s.classList.remove('selected'));
       div.classList.add('selected');
-      selectedSlot = iso;
+      selectedSlot=iso;
       updateDepositAndConfirm();
     };
-if (selectedSlot === iso) div.classList.add('selected');
     grid.appendChild(div);
   });
 }
@@ -289,4 +313,3 @@ renderMenu(); renderCart(); updateSignedInUI(); fetchBookedSlots(bookingDate.val
 </script>
 </body>
 </html>
-
