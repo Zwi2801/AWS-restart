@@ -1,4 +1,4 @@
-Welcome to my AWS re/Start Journey
+Welcome to my AWS Restart Journey
 
 This collection showcases my hands-on labs, exercises, and projects completed as part of the AWS re/Start Cloud Practitioner Program.
 
