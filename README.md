@@ -1,6 +1,18 @@
-Welcome to my AWS Restart Journey
+My Restart Graduate Journey
 
-This collection showcases my hands-on labs, exercises, and projects completed as part of the AWS re/Start Cloud Practitioner Program.
+                                The AWS reStart Journey     
 
-There are various activities that we completed such as labs that covered topics such as practical cloud computing, Linux, and networking concepts using Amazon Web Services (AWS) and related technologies.
-We were given various projects as well to complete such as the Static website project.
+This outstanding program equipped me with both practical and technical tools and methodologies that will bring forth impactful client-focused and problem solving solutions. I have learned the following through the program:
+
+Cloud Computing – Understanding AWS services, their interconnection to enable customers to easily manage infrastructure
+Programming & Scripting – Simplified programming, automating tasks, and data analysis. 
+Databases & Storage – Designing and creating relational and NoSQL databases.
+Networking & Security – Basics of networking, VPNs and ensuring that the cloud is safe and secure.
+Professional Skills – GitHub, documentation and effective communication, teamwork, and problem-solving.
+
+                                                   Topics:
+Compute
+Storage
+Databases
+Networking
+Resources
