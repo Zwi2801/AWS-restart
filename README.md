@@ -4,11 +4,12 @@ My Restart Graduate Journey
 
 This outstanding program equipped me with both practical and technical tools and methodologies that will bring forth impactful client-focused and problem solving solutions. I have learned the following through the program:
 
-Cloud Computing – Understanding AWS services, their interconnection to enable customers to easily manage infrastructure
-Programming & Scripting – Simplified programming, automating tasks, and data analysis. 
-Databases & Storage – Designing and creating relational and NoSQL databases.
-Networking & Security – Basics of networking, VPNs and ensuring that the cloud is safe and secure.
-Professional Skills – GitHub, documentation and effective communication, teamwork, and problem-solving.
+1. Cloud Computing – Understanding AWS services, their interconnection to enable customers to easily manage infrastructure
+2. Programming & Scripting – Simplified programming, automating tasks, and data analysis.
+3. Databases & Storage – Designing and creating relational and NoSQL databases.
+4. Networking & Security – Basics of networking, VPNs and ensuring that the cloud is safe and secure.
+5. Professional Skills – GitHub, documentation and effective communication, teamwork, and problem-solving.
+   
 
                                                    Topics:
 Compute
