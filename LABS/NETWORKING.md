@@ -9,4 +9,6 @@ Lab Objectives
 5. Verified and validated the VPC and subnet configurations by checking IP ranges and routes.
 6. Get an understanding on how network segmentation helps improve security and manageability
 
+**Process Followed and Key Takeaways**
+
 
