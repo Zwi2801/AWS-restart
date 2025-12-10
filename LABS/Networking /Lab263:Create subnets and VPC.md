@@ -8,7 +8,7 @@ In this lab, I deep dived in an environment where I learnt to create a virtual n
 3. Creating multiple subnets in the VPC for varying network segments.
 4. Set up internet gateways to provide external connectivity where needed.
 5. Verified and validated the VPC and subnet configurations by checking IP ranges and routes.
-6. Get an understanding on how network segmentation helps improve security and manageability
+6. Get an understanding on how network segmentation helps improve security and easier management
 
-                          Process followed-Tasks breakdown
+                          Process followed- Tasks breakdown
    
