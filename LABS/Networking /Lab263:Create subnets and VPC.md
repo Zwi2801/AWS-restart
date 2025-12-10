@@ -19,6 +19,6 @@ I need help setting up a VPC. Can you please help me through the setup process? 
 I then worked out a plan to resolve the customer's issue by working out a plan to break it down into two tasks as follows
 
 **Task 1:Investigate the customer's needs to ensure I provide an appropriate solution**
-
+I kicked off this task by getting a clearer understanding on VPC, subnets, route tables and internet gateway through reasearching and reading up on how each resource works
 
    
