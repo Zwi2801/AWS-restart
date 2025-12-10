@@ -19,6 +19,7 @@ I need help setting up a VPC. Can you please help me through the setup process? 
 I then worked out a plan to resolve the customer's issue by working out a plan to break it down into two tasks as follows
 
 **Task 1:Investigate the customer's needs to ensure I provide an appropriate solution**
-I kicked off this task by getting a clearer understanding on VPC, subnets, route tables and internet gateway through reasearching and reading up on how each resource works. After the research it seemed logical to start with creating a new VPC and assignin it an IP address range followed by Configuring routing tables to make the flow of traffic between subnets flow(or be restricted) much easier. I then set up internet gateways so that external connectivity is provided when necessary which then allowed me to verified and validate the VPC and subnet configurations by checking IP ranges and routes.
+
+I kicked off this task by getting a clearer understanding on VPC, subnets, route tables and internet gateway through reasearching and reading up on how each resource works. After the research it seemed logical to start with creating a new VPC and assignin it an IP address range followed by Configuring route tables to make the flow of traffic between subnets flow(or be restricted) much easier. I then set up internet gateways so that external connectivity is provided when necessary which then allowed me to verified and validate the VPC and subnet configurations by checking IP ranges and routes.
 
    
