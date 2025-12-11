@@ -11,4 +11,7 @@ In this lab, I explored how to practice troubleshooting commands and to test con
 
                    Process followed- Tasks breakdown
 
+**Task 1: Use SSH to connect to an Amazon Linux EC2 instance**
+This lab was also centered around a scenario provided by a customer and I had the network administrator role who was responsible for troubleshooting customer issues which will be mentioned in greater detail in the next task. The first task involved connecting to an Amazon Linux EC2 instance using an SSH utility to perform the required operations.
+
    
