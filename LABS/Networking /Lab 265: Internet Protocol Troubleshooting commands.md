@@ -39,4 +39,8 @@ Part of the resolution is that you can run telnet 192.168.10.5 80 to ensure that
 The curl command can be used for the following scenario for example: A customer has an Apache server running, and they want to test that their website is running successfully through getting a successful request (200 OK). 
 You can investigate the issue by running a curl command to see if the customer's Apache server returns a 200 OK which will be done through looking into the transfer of data between you and the server. The curl command uses mostly HTTP and HTTPS but can also be used for many other different protocols. The main purpose for the curl command is to use it to troubleshoot communication from your local device to a server. 
 
+                      Key Takeaways, difficulties encountered and how I resolved them
+
+Some of the difficulties experienced with these commands were the commands not yielding the expected output specifically the netstat and telnet commands which were quite challenging and I needed to identify where I went wrong. This was sometimes due to lack of execute permissions, which required troubleshooting with chmod.
+
 
