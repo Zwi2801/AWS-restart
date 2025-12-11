@@ -8,3 +8,4 @@ In this lab, I explored how to practice troubleshooting commands and to test con
 2. Get an understanding of the layers and how troubleshooting commands flow with the Open Systems Interconnection (OSI) model
 3. In depth understanding of the Ping, Traceroute, Netstat, Telnet and Curl command
 4. Identify how these commands can be used in customer scenarios
+
