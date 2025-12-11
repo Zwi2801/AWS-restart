@@ -21,13 +21,22 @@ I got an understanding of the Application, Transport and Network layers where th
 
 **Network layer: Ping and Traceroute commands**
 For the ping command, you can input an IP or URL followed by options such as: ping 8.8.8.8 -c 5 where the -c stands for count, and 5 stands for how many requests you are requesting. The ping command is used to test connectivity to something such as a server through sending ICMP echo requests from your machine to the server that you are trying to reach (for example, amazon.com). The server sends an echo reply with a round-trip time. The ping can also be used to troubleshoot connectivity issues and reachability to a specific target and to bring a specific network up if traffic needs to continuously flow through a network which can be done through sending a continuous ping.
+
 The traceroute command can be used to investigate the path and latency that the packet takes to get from your machine to the destination (8.8.8.8), where each server is called a hop. There can be some packet loss, seen as percentages, at each loss, which is usually due to the user's local area network (LAN) or ISP. The possible outcomes are that if the packet loss occurs toward the end of the route, then the issue is more than likely the server connection, but If the loss is toward AWS, you might need to investigate other factors that might limiting networking connectivity.
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/b7667fa8-0277-402d-a41d-e3a3b110e7ed" />
 
 **Transport layer: Netstat and Telnet commands**
+
 The netstat command can be run in the following scenario: A company is running a routine security scan and found that one of the ports on a certain subnet is compromised. 
+
 Netstat will be used to confirm the local host on that subnet to confirm if the port is listening when it shouldn't be. The netstat command does this through showing the current established TCP connections from which the host is listening. When you have to troubleshoot networking issues starting with the host machine and working outward, netstat can be run to understand which ports are listening and which are not which will provide you with a snapshot of your layer 4 connectivity and help you save time when trying to narrow down a large networking issue.
+
 The Telnet command can be used for the following scenario: A customer has a secure web server and has custom security group rules and network ACL rules configured, and they are concerned that port 80 is open even though it shows their security settings indicate that their security group is blocking this port. 
+
 Part of the resolution is that you can run telnet 192.168.10.5 80 to ensure that the connection is refused which is done through the command confirming the TCP connection to a web server making an HTTP request if using port 80 to telnet. The possible outcomes are that If you can successfully connect to the web server, then there is nothing blocking you or the server from connecting, and if the connection fails with a message like "connection refused," then something is likely blocking the connection, such as a firewall or security group. If the connection fails with a message like "connection timed out," then then issue may be no network route or connectivity. It was interesting to note that the telnet command can be used at layer 7 as well.
+
+**Application layer: curl command**
+The curl command can be used for the following scenario for example: A customer has an Apache server running, and they want to test that their website is running successfully through getting a successful request (200 OK). 
+You can investigate the issue by running a curl command to see if the customer's Apache server returns a 200 OK which will be done through looking into the transfer of data between you and the server. The curl command uses mostly HTTP and HTTPS but can also be used for many other different protocols. The main purpose for the curl command is to use it to troubleshoot communication from your local device to a server. 
 
 
