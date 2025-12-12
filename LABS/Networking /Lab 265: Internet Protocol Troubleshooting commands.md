@@ -14,6 +14,9 @@ In this lab, I explored how to practice troubleshooting commands and to test con
 **Task 1: Use SSH to connect to an Amazon Linux EC2 instance**
 This lab was also centered around a scenario provided by a customer and I had the network administrator role who was responsible for troubleshooting customer issues which will be mentioned in greater detail in the next task. The first task involved connecting to an Amazon Linux EC2 instance using an SSH utility to perform the required operations.
 
+<img width="1320" height="659" alt="image" src="https://github.com/user-attachments/assets/32a70188-efb0-4a81-95d3-91c09b583c81" />
+
+
 **Task2: Practice troubleshooting commands**
 
 I got an understanding of the Application, Transport and Network layers where the I applied the ping, traceroute, netstat, telnet and curl commands to address customer quiries. There are layers that have commands related to them to help with troubleshooting, and the diagram below will illustrate an example of how the troubleshooting commands flow with the Open Systems Interconnection (OSI) model:
