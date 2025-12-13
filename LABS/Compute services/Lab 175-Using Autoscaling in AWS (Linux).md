@@ -17,3 +17,23 @@ In this lab, the AWS Command Line Interface (AWS CLI) is utilised to create an A
   5. Creating an auto scaling environment by creating an Application Load Balancer
   6. Verifying and test the auto scaling configuration
   7. Configure scaling policies by ensuring that the Auto Scaling will scale in and scale out the required number of servers based on a variable load
+
+                   Process followed- Tasks breakdown
+
+**Task 1: Creating a new AMI for Amazon EC2 Auto Scaling**
+
+In task 1, I used the AWS CLI on the Command Host EC2 instance to perform all of these operations, where I launched a new EC2 instance and then created a new AMI based on that running EC2 instance. 
+
+**Task 1.1: Connecting to the Command Host instance**
+
+
+
+
+
+
+
+
+
+
+
+
