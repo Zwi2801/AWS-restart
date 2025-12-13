@@ -8,4 +8,12 @@ In this lab, the AWS Command Line Interface (AWS CLI) is utilised to create an A
 
 <img width="2172" height="1244" alt="image" src="https://github.com/user-attachments/assets/bb9c1d6c-0781-42d8-ab0d-7189167f3911" />
 
+                      Key Objectives
 
+  1. The main goal of this lab was to navigate, get accustomed and comfortable with using AWS CLI.
+  2. Use an AWS CLI to create an EC2 instance.
+  3. Using the AWS CLI to create a new AMI.
+  4. Using the new AMI to create an Amazon EC2 template.
+  5. Creating an auto scaling environment by creating an Application Load Balancer
+  6. Verifying and test the auto scaling configuration
+  7. Configure scaling policies by ensuring that the Auto Scaling will scale in and scale out the required number of servers based on a variable load
