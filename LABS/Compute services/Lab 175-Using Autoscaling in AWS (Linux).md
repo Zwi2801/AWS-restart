@@ -48,6 +48,7 @@ In this section, I created a load balancer that can manage and balance traffic i
 
 
 
+
 **Task 2.2: Creating an Auto Scaling group**
 This is where I used the launch template I create to create an Auto Scaling group with enabled Elastic Load Balancing health checks, and for a Target value of 50 which tells the auto scaling to maintain an average CPU utilization across all instances of 50 percent. Auto scaling will automatically increase or decrease the capacity as required to keep the metric as close to the specified target value as possible. It uses a fluctuating load pattern to adjust the fluctuations in the metric.
 
