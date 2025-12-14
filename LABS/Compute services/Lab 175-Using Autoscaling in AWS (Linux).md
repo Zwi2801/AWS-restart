@@ -35,9 +35,12 @@ In this task, the main outcome was to use the AWS CLI to create a new instance t
 **Task 2: Creating an auto scaling environment**
 Firstly I created a load balancer that pools groups of EC2 instances under a single Domain Name System (DNS) address and uses auto scaling to create EC2 instances in a dynamically scalable pool based of on the image that you created in the previous task. Finally,I enabled additional health checks on the load balancer and I created a set of alarms that scale in or out the number of instances in the load balancer group whenever the CPU performance of any machine within the group exceeds or falls below a set of specified thresholds.
 
-**Task 2.1: Creating an Application Load Balancer and another launch template**
+**Task 2.1: Creating an Application Load Balancer and a launch template for the AutoScaling group**
 
-In this section, I created a load balancer that can manage and balance traffic in and out of multiple EC2 instances and Availability Zones using the AWS Managemant Console. The type of ELB I created is an Application Load Balancer called WebServerELB with an attached Security and target group. 
+In this section, I created a load balancer that can manage and balance traffic in and out of multiple EC2 instances and Availability Zones using the AWS Managemant Console. The type of ELB I created is an Application Load Balancer called WebServerELB with an attached Security and target group. The next step involved creating a launch template for my Auto Scaling group which I will create in the next task, which is a template that an Auto Scaling group uses to launch EC2 instances. I created the template on the AWS Management Console as well and i had to specify information for the instances, such as the AMI, instance type, key pair, security group, and disks.
+
+**Task 2.2: Creating an Auto Scaling group**
+This is where I used the launch template I create to create an Auto Scaling group with enabled Elastic Load Balancing health checks, and for a Target value of 50 which tells the auto scaling to maintain an average CPU utilization across all instances of 50 percent. Auto scaling will automatically increase or decrease the capacity as required to keep the metric as close to the specified target value as possible. It uses a fluctuating load pattern to adjust the fluctuations in the metric.
 
 
 
