@@ -30,7 +30,14 @@ Firstly, I navigated through the AWS Management Console and connected to the Com
 
 **Task 1.2: Creating a new EC2 Instance and a Custom AMI**
 
-In this task, the main outcome was to use the AWS CLI to create a new instance that hosts a web server. I kicked off this task inspecting the UserData.txt script that was installed as part of the Command Host instance creation, this script performs a number of initialization tasks, including updating all installed software
+In this task, the main outcome was to use the AWS CLI to create a new instance that hosts a web server. I kicked off this task by inspecting the UserData.txt script that was installed as part of the Command Host instance creation, this script performs a number ofautomation and initialization tasks, including updating all installed software and eliminating the need for manual setup. I then ran a script to create a new EC2 instance which required the following information: KEYNAME, AMIID, HTTPACCESS, and SUBNETID which generated the instanceID which enabled another script to initialize a new web server.Installing the web server required about 5-10 minutes and then I moved to the last step of this task which where I used the ec2 create-image command to restart the current instance before creating the AMI to ensure the integrity of the image on the file system.
+
+**Task 2: Creating an auto scaling environment**
+Firstly I created a load balancer that pools groups of EC2 instances under a single Domain Name System (DNS) address and uses auto scaling to create EC2 instances in a dynamically scalable pool based of on the image that you created in the previous task. Finally,I enabled additional health checks on the load balancer and I created a set of alarms that scale in or out the number of instances in the load balancer group whenever the CPU performance of any machine within the group exceeds or falls below a set of specified thresholds.
+
+**Task 2.1: Creating an Application Load Balancer and another launch template.
+In this section, I created a load balancer that can manage and balance traffic in and out of multiple EC2 instances and Availability Zones using the AWS Managemant Console.
+
 
 
 
