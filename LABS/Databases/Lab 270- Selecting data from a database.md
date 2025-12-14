@@ -10,4 +10,7 @@ The main purpose of this lab was to learn about relational databases how data is
 3. Using and getting an understanding of the COUNT() function
 4. Using <, >, =, WHERE, AND and ORDER BY operators to query a database
 
+          Process followed- Tasks breakdown
+
+**Task 1: Connect to the Command Host**
 
