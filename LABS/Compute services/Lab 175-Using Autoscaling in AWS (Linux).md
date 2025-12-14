@@ -24,6 +24,9 @@ In this lab, the AWS Command Line Interface (AWS CLI) is utilised to create an A
 
 In task 1, I used the AWS CLI on the Command Host EC2 instance to perform all of these operations, where I launched a new EC2 instance and then created a new AMI based on that running EC2 instance. 
 
+<img width="2864" height="1550" alt="image" src="https://github.com/user-attachments/assets/4734f6e7-e5d0-4aa9-a5bf-816af7e2dfc0" />
+
+
 **Task 1.1: Connecting to the Command Host instance and configuring the AWS CLI**
 
 Firstly, I navigated through the AWS Management Console and connected to the Command Host EC2 instance. The Command Host instance has to be running is the us-west-2 Region, so i ran the curl http command to verify and the output confirmed that it was indeed in that region so I used the region's information going forward. I then ran the "aws configure" command to update the CLI with correct credentials such as Access Key ID, AWS Secret Access Key, Default region name which I entered the us-west-2 region, and finally the Default output format which I entered json for access to run the scripts for the next tasks.
@@ -38,6 +41,12 @@ Firstly I created a load balancer that pools groups of EC2 instances under a sin
 **Task 2.1: Creating an Application Load Balancer and a launch template for the AutoScaling group**
 
 In this section, I created a load balancer that can manage and balance traffic in and out of multiple EC2 instances and Availability Zones using the AWS Managemant Console. The type of ELB I created is an Application Load Balancer called WebServerELB with an attached Security and target group. The next step involved creating a launch template for my Auto Scaling group which I will create in the next task, which is a template that an Auto Scaling group uses to launch EC2 instances. I created the template on the AWS Management Console as well and i had to specify information for the instances, such as the AMI, instance type, key pair, security group, and disks.
+
+<img width="2880" height="1447" alt="image" src="https://github.com/user-attachments/assets/f65b91f5-e972-4f01-ae9a-a202c71fca4a" />
+
+<img width="2878" height="1374" alt="image" src="https://github.com/user-attachments/assets/26b1b707-8c00-4e14-9682-d6a9235fc42f" />
+
+
 
 **Task 2.2: Creating an Auto Scaling group**
 This is where I used the launch template I create to create an Auto Scaling group with enabled Elastic Load Balancing health checks, and for a Target value of 50 which tells the auto scaling to maintain an average CPU utilization across all instances of 50 percent. Auto scaling will automatically increase or decrease the capacity as required to keep the metric as close to the specified target value as possible. It uses a fluctuating load pattern to adjust the fluctuations in the metric.
