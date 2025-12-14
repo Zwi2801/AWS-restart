@@ -45,6 +45,8 @@ This is where I used the launch template I create to create an Auto Scaling grou
 **Task 3: Verifying and testing the auto scaling configuration**
 In this final task, I started by verifying that both the auto scaling configuration and the load balancer are working both individually and together by accessing a pre-installed script on one of your servers that will consume CPU cycles, which will then invoke the scale out alarm if the traffic exceeds the target value. Lastly, I tested auto scaling functionality by allowing the web application access through the load balancer and the doing the application stress in the background which invoked the scale-up policy as a response after Amazon CloudWatch detected that the average CPU utilization of your Auto Scaling group exceeded 50 percent.
 
+                  Key Takeaways, difficulties encountered and how I resolved them
+
 
 
 
