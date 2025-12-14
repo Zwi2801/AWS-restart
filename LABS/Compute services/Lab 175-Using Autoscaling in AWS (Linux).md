@@ -35,8 +35,9 @@ In this task, the main outcome was to use the AWS CLI to create a new instance t
 **Task 2: Creating an auto scaling environment**
 Firstly I created a load balancer that pools groups of EC2 instances under a single Domain Name System (DNS) address and uses auto scaling to create EC2 instances in a dynamically scalable pool based of on the image that you created in the previous task. Finally,I enabled additional health checks on the load balancer and I created a set of alarms that scale in or out the number of instances in the load balancer group whenever the CPU performance of any machine within the group exceeds or falls below a set of specified thresholds.
 
-**Task 2.1: Creating an Application Load Balancer and another launch template.
-In this section, I created a load balancer that can manage and balance traffic in and out of multiple EC2 instances and Availability Zones using the AWS Managemant Console.
+**Task 2.1: Creating an Application Load Balancer and another launch template**
+
+In this section, I created a load balancer that can manage and balance traffic in and out of multiple EC2 instances and Availability Zones using the AWS Managemant Console. The type of ELB I created is an Application Load Balancer called WebServerELB with an attached Security and target group. 
 
 
 
