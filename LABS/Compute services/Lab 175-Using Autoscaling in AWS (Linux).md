@@ -24,7 +24,13 @@ In this lab, the AWS Command Line Interface (AWS CLI) is utilised to create an A
 
 In task 1, I used the AWS CLI on the Command Host EC2 instance to perform all of these operations, where I launched a new EC2 instance and then created a new AMI based on that running EC2 instance. 
 
-**Task 1.1: Connecting to the Command Host instance**
+**Task 1.1: Connecting to the Command Host instance and configuring the AWS CLI**
+
+Firstly, I navigated through the AWS Management Console and connected to the Command Host EC2 instance. The Command Host instance has to be running is the us-west-2 Region, so i ran the curl http command to verify and the output confirmed that it was indeed in that region so I used the region's information going forward. I then ran the "aws configure" command to update the CLI with correct credentials such as Access Key ID, AWS Secret Access Key, Default region name which I entered the us-west-2 region, and finally the Default output format which I entered json for access to run the scripts for the next tasks.
+
+**Task 1.2: Creating a new EC2 Instance and a Custom AMI**
+
+In this task, the main outcome was to use the AWS CLI to create a new instance that hosts a web server. I kicked off this task inspecting the UserData.txt script that was installed as part of the Command Host instance creation, this script performs a number of initialization tasks, including updating all installed software
 
 
 
