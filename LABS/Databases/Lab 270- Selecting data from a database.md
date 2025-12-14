@@ -2,3 +2,12 @@
 
 **Overview**
 The main purpose of this lab was to learn about relational databases how data is stored, organized, and accessed in these relational databases. Relational databases are a type of database that keep information in structured tables with rows and columns, making the information easier to access and retrieve. My main goal was to learn how to connect to a database and navigate its environment which enabled me to explore how the data was structured and how the different tables related to each other.
+
+                  Key Objectives
+
+1. Learning how relational databases manage data
+2. Using and getting an understanding of the SELECT statement to query a database
+3. Using and getting an understanding of the COUNT() function
+4. Using <, >, =, WHERE, AND and ORDER BY operators to query a database
+
+
