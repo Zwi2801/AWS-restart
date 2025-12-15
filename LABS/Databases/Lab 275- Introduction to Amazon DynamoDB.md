@@ -14,7 +14,7 @@ In this lab, I got hands-on and practical experience with Amazon DynamoDB throug
 
    Process followed- Tasks breakdown
 
-   **Task1: Create a new table**
+ **Task1: Create a new table**
 
 I kicked off this lab by accessing the AWS Management console and from the Services menu, I navigated to DynamoDB under the Database section. I then selected create table and I named the table Music. I set Artist as the Partition Key with the data type set to String, and I added Song as the Sort Key, also with the data type String then I confirmed for the table to be created and waited until its status changed to Active. 
 
@@ -27,6 +27,9 @@ I navigated to Explore Items in the DynamoDB dashboard then I selected the Psy r
 
 **Task 4: Querying the Table**
 I used the Query option to retrieve a specific item efficiently. I specifically entered Artist:Psy and Song:Gangnam Style then I ran the query and confirmed that the correct item was returned almost instantly. I then used the Scan option to find items released in a specific year where I applied a filter for the Year = 1971, which returned only Imagine by John Lennon. This demonstrated the difference between Query which fast and indexed and Scan which is less efficient.
+
+**Task 5: Deleting the Table**
+From the DynamoDB dashboard, I selected the Music table and chose Actions then clicked on Delete table. I then confirmed the deletion by typing delete and the table and all its data were permanently removed.
 
 
 
