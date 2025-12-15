@@ -34,7 +34,9 @@ I used the Query option to retrieve a specific item efficiently. I specifically 
 
 From the DynamoDB dashboard, I selected the Music table and chose Actions then clicked on Delete table. I then confirmed the deletion by typing delete and the table and all its data were permanently removed.
 
+          Key Takeaways
 
+Overall, this lab provided practical experience with DynamoDB and helped me understand how NoSQL databases differ from traditional relational databases, particularly in terms of flexibility and scalability. I also discovered that there are two ways to query a DynamoDB table namely query and scan. A query operation finds items based on the primary key and optionally the sort key and is fully indexed, so it runs very fast and is the most efficient way to retrieve data from a DynamoDB table. Alternatively, you can scan for an item which involves looking through every item in a table, so it is less efficient and can take significant time for larger tables.
 
 
 
