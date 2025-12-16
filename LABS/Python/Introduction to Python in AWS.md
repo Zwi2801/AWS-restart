@@ -12,6 +12,12 @@ Using Cloud9 was quite seamless and exciting as it was easy to write code with P
 
 <img width="2865" height="843" alt="image" src="https://github.com/user-attachments/assets/fa3709ce-8faa-4cc4-b497-c6f0f947c6d0" />
 
+                  Key Takeaways, Challenges encountered and Resolutions
+
+There were various challenges that I faced as I was completing the various Python labs. One of my main challeneges was writing correct logic for loops and conditional statements, which required practice. At times, remembering the correct structure of functions and how to use them properly was also difficult. Additionally, getting familiar with Cloud9 tools and the terminal took some time as I have limited experience with working in a cloud-based environment. I broke problems into smaller steps to make complex logic easier to handle, and re-running code multiple times to test solutions and improve accuracy are some of the steps I carried out to resolve the challenges I encountered.
+
+Lastly, understanding Python syntax and indentation was challenging, as even small mistakes could cause errors. Debugging the errors, especially when the code did not run as expected at first was quite difficult to resolve. Practicing coding regularly to get familiar with Python syntax and indentation was how I resolved this challenge and I have improved greatly.
+
 
 
 
