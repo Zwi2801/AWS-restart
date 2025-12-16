@@ -12,6 +12,11 @@ In this lab, after successfully connecting to the instance, I wrote and tested a
 4. Save program output to a file and verify the results
 5. Gain hands-on experience working in a cloud-hosted Linux environment
 
+                      Process followed- Task Breakdown
+
+   **Task 1: Accessing SSH Credentials**
+I kicked off the lab by opening the Lab Details panel and displayed the credentials then I downloaded the SSH private key and noted the public IP address of the Linux host. I connected to the instance using the SSH command. Once connected, access to the Linux host was confirmed without the need for a password, using key-based authentication.
+
 
 
 
