@@ -22,7 +22,8 @@ Some of the pictures of the "Best sellers" shown on the website hosted on S3 as 
 
 <img width="2179" height="1311" alt="image" src="https://github.com/user-attachments/assets/0cf5bf61-d510-4efe-878a-1019aa4fb4c1" />
 
-<img width="2179" height="1311" alt="image" src="https://github.com/user-attachments/assets/aba1a621-9077-4bc4-a671-36ea81b421a4" />
+<img width="2007" height="1222" alt="image" src="https://github.com/user-attachments/assets/a2916258-9a73-40b6-bb7c-eae0791fe7a4" />
+
 
                                          AWS Services Used in the Project
 
@@ -31,6 +32,11 @@ Amazon S3 was chosen as the primary host for the static website because it is hi
 While the project focuses on static hosting, the architecture can later be expanded to include databases, serverless backends, or analytics services as the business grows.
 
                                            Key Benefits of AWS for La Lumiere
+
+We conducted a cost analysis and i reveled that using S3 is very affordable because it follows a “pay as you go” model meaning the restaurant only pays for the storage and data it actually uses. It also offers scalable solution in that it allows the website to automatically handle more visitors without downtime, its high performance ensures fast loading speed using AWS global reach and it provides strong security through encryption and automatic backups keeping all data safe.
+
+                                              Presentation Summary
+As part of this project, we created a PowerPoint presentation to explain the solution and its benefits, and we got a chance to actually present to one of our facilitations where we provided clarity where necessary. The presentation included an overview of the restaurant, the challenges it faced, the proposed AWS solution, and the advantages of cloud migration. Getting the opportunity to present our ideas definitely enhanced our presentation skills.
 
 
 
