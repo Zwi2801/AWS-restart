@@ -18,6 +18,31 @@ Throughout the lab, I launched an EC2 instance configured as a simple web server
 6. Test and understand termination protection
 7. Safely terminate an EC2 instance
 
+          Process followed- Tasks breakdown
+
+   **Task1- Launching your EC2 instance**
+
+I used the AWS Management Console to create the EC2 instance, so I kicked off this lab by navigating to the Services menu on the console, then clicked on EC2 and opened the EC2 Dashboard. I selected Launch instance and I named the instance Web Server, creating a Name tag for easy identification.
+
+Some of the Key configuration choices in addition to the Instance name included:
+
+1. **AMI:** Amazon Linux 2023 (default)
+2. **Instance Type:** t3.micro
+3. **Key Pair:** Proceeded without a key pair (not required for this lab
+4. **VPC:** Lab VPC
+5. **Security Group:** Custom security group with no inbound rules initially
+6. **Termination Protection:** Enabled
+
+**Task 2- Monitor Your Instance**
+
+With the EC2 running and in the available state, I reviewed the following:
+
+1. **Status Checks:** - I checked the status of the instance using the Status Checks tab to confirm system and instance reachability.
+2. **Monitoring:** - I explored the Monitoring tab to view Amazon CloudWatch metrics.
+3. **Get Instance Screenshot** - I used Get Instance Screenshot to view the instance console output.
+
+
+
 
 
 
