@@ -37,10 +37,9 @@ In your terminal, run python3 prime_numbers.py then all the prime numbers were d
 
 Verified that the results.txt file was created and was running then I also confirmed that the file contained the correct list of prime numbers. 
 
+                  Key Takeaways
 
-
-
-This lab reinforced both cloud infrastructure fundamentals and basic scripting skills, making it a valuable hands-on exercise for understanding how applications and servers are managed in real-world AWS environments.
+This lab reinforced that Python is effective for automation and simple data-processing tasks and running scripts on EC2 mirrors real-world cloud development workflows. I also enhanced my knowledge on cloud infrastructure fundamentals and basic scripting skills, making it a valuable hands-on exercise for understanding how applications and servers are managed in real-world AWS environments.
 
 
 
