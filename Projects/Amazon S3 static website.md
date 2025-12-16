@@ -38,6 +38,16 @@ We conducted a cost analysis and i reveled that using S3 is very affordable beca
                                               Presentation Summary
 As part of this project, we created a PowerPoint presentation to explain the solution and its benefits, and we got a chance to actually present to one of our facilitations where we provided clarity where necessary. The presentation included an overview of the restaurant, the challenges it faced, the proposed AWS solution, and the advantages of cloud migration. Getting the opportunity to present our ideas definitely enhanced our presentation skills.
 
+                                                Key takeways and conclusin
+
+1. **Cloud-based websites simplify operations**- Amazon S3 is ideal for static website hosting which allows customers to submit bookings and orders digitally, reducing human error and administrative workload. S3 also provides a cost-effective, scalable, and highly available solution for hosting static websites and media assets.
+2. **Improved customer experience leads to better business outcomes**- Online forms and confirmations give customers clarity and confidence, while reducing confusion for staff.
+3. **AWS enables scalability without upfront investment**- The restaurant can handle increased customer demand without purchasing or maintaining on-premises hardware.The centralised digital access will improve data visibility even with a simple static setup, moving online creates a foundation for tracking customer interactions and preferences.
+4. **Professional online presence builds trust**-A well-designed website enhances the restaurant’s brand image and credibility.
+
+The solution definitely provided a strong foundation for future growth and digital transformation for La Lumiere restaurant.
+ 
+
 
 
 
