@@ -171,7 +171,8 @@ Solution: Use Lambda for low-traffic periods and EC2 Auto Scaling for peak hours
 Challenge 3: Managing two databases (RDS + DynamoDB)
 
 Solution: Use RDS for transactional consistency (orders) and DynamoDB for high-speed reads (products). This hybrid approach ensures both performance and structure.
-              
+
+                                            Key takeways and conclusion              
 
 
 
