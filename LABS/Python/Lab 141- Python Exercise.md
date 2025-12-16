@@ -15,7 +15,30 @@ In this lab, after successfully connecting to the instance, I wrote and tested a
                       Process followed- Task Breakdown
 
    **Task 1: Accessing SSH Credentials**
+
 I kicked off the lab by opening the Lab Details panel and displayed the credentials then I downloaded the SSH private key and noted the public IP address of the Linux host. I connected to the instance using the SSH command. Once connected, access to the Linux host was confirmed without the need for a password, using key-based authentication.
+
+<img width="2300" height="1126" alt="image" src="https://github.com/user-attachments/assets/32bebcac-78da-4d11-bcb1-e64e8ba1d4fe" />
+
+
+<img width="1320" height="659" alt="image" src="https://github.com/user-attachments/assets/190dad0a-9a25-401e-ba3b-d67edd81960f" />
+
+**Task 2: Writing the Python Script**
+
+Created a Python script and I implemented logic to loop through numbers from 1 to 250, identify prime numbers and store the results in a file called results.txt. I then saved the script and recorded its absolute file path for future reference.
+
+<img width="1523" height="943" alt="image" src="https://github.com/user-attachments/assets/a9b951af-ddc5-4c1b-a600-1a24a05842e7" />
+
+**Task 3: Run the Python Script**
+
+In your terminal, run python3 prime_numbers.py then all the prime numbers were displayed.
+
+**Task 4: Testing and Verification**
+
+Verified that the results.txt file was created and was running then I also confirmed that the file contained the correct list of prime numbers. 
+
+
+
 
 
 
