@@ -18,6 +18,9 @@ In this lab, I got hands-on and practical experience with Amazon DynamoDB throug
 
 I kicked off this lab by accessing the AWS Management console and from the Services menu, I navigated to DynamoDB under the Database section. I then selected create table and I named the table Music. I set Artist as the Partition Key with the data type set to String, and I added Song as the Sort Key, also with the data type String then I confirmed for the table to be created and waited until its status changed to Active. 
 
+<img width="1628" height="796" alt="image" src="https://github.com/user-attachments/assets/e668a8d4-74ae-48b0-af52-ead1a37be602" />
+
+
 **Task2: Add data**
 
 In this task, I selected the Music table and chose Create item where I added the first item with attributes such as Artist, Song, Album and year. Secondly, I created a second item with additional attributes, including Genre, to demonstrate DynamoDB’s schema-less design. Lastly, I created a third item that included a new attribute called LengthSeconds, showing the flexibility of NoSQL databases.
@@ -26,9 +29,15 @@ In this task, I selected the Music table and chose Create item where I added the
 
 I navigated to Explore Items in the DynamoDB dashboard then I selected the Psy record where I corrected the Year attribute from 2011 to 2012 then I saved the changes, successfully updating the item.
 
+<img width="1622" height="852" alt="image" src="https://github.com/user-attachments/assets/b88da0eb-7623-4177-8b07-019daf10067a" />
+
+
 **Task 4: Querying the Table**
 
 I used the Query option to retrieve a specific item efficiently. I specifically entered Artist:Psy and Song:Gangnam Style then I ran the query and confirmed that the correct item was returned almost instantly. I then used the Scan option to find items released in a specific year where I applied a filter for the Year = 1971, which returned only Imagine by John Lennon. This demonstrated the difference between Query which fast and indexed and Scan which is less efficient.
+
+<img width="1814" height="830" alt="image" src="https://github.com/user-attachments/assets/06f56abc-2342-4632-a7bd-595514396326" />
+
 
 **Task 5: Deleting the Table**
 
