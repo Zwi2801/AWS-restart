@@ -33,6 +33,9 @@ Some of the Key configuration choices in addition to the Instance name included:
 5. **Security Group:** Custom security group with no inbound rules initially
 6. **Termination Protection:** Enabled
 
+<img width="1128" height="495" alt="image" src="https://github.com/user-attachments/assets/4cb84fad-d563-4959-83b9-8474284b4d50" />
+
+
 **Task 2- Monitor Your Instance**
 
 With the EC2 running and in the available state, I reviewed the following:
@@ -40,6 +43,30 @@ With the EC2 running and in the available state, I reviewed the following:
 1. **Status Checks:** - I checked the status of the instance using the Status Checks tab to confirm system and instance reachability.
 2. **Monitoring:** - I explored the Monitoring tab to view Amazon CloudWatch metrics.
 3. **Get Instance Screenshot** - I used Get Instance Screenshot to view the instance console output.
+
+**Task 3: Updating the Security Group and Accessing the Web Server**
+
+I attempted to access the web server by copying the instance’s Public IPv4 address on a web browser, but I couldnt access it because I confirmed access failed because HTTP traffic was not allowed, specifically inbound HTTP traffic (port 80) was not permitted by the security group.
+
+The steps I followed for the resolution are: I updated the security group inbound rules to allow:
+Type: HTTP (Port 80)
+Source: Anywhere-IPv4
+
+I refreshed the browser and successfully viewed the web page after saving the rule, and it showed the message below:
+
+<img width="1138" height="236" alt="image" src="https://github.com/user-attachments/assets/be7f4aa6-7390-4cf1-8999-05134ab52b5b" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
