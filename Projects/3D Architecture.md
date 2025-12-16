@@ -24,6 +24,7 @@ Our team took on the role of Cloud Practitioners and designed an AWS architectur
 Amazon S3 is used to store all 3D product models, textures, images, and static website assets.
 
 The reasons for selection are as follows:
+
     • Highly durable (11 9’s durability)
     • Scales automatically for millions of asset requests
     • Integrates directly with CloudFront for low-latency delivery
@@ -39,6 +40,41 @@ The reasons for selection are as follows:
     • Protects the backend using AWS Shield and WAF integration
     • Improves performance for heavy 3D content
     • Decreases S3 and backend load
+
+3. **EC2 Auto Scaling / AWS Lambda – Backend Compute**
+
+The backend API can be built using either:
+    
+A. EC2 Auto Scaling for applications requiring long-running processes
+B. AWS Lambda for event-driven API logic (serverless)
+
+The reasons for selection are as follows:
+
+    • Supports unpredictable spikes in traffic
+    • Load adjusts automatically up or down
+    • Reduces cost by only paying for what is used
+    • Lambda improves scalability and removes server maintenance
+
+4. **Amazon RDS / DynamoDB – User & Product Database**
+
+The architecture uses:
+    • RDS (MySQL/PostgreSQL) for structured data like orders, users, and transactions
+    • DynamoDB for fast product lookups and real-time inventory access
+
+The reasons for selection are as follows:
+
+    • RDS provides strong consistency & relational queries
+    • DynamoDB offers millisecond latency for product browsing
+    • Both scale easily and integrate with Lambda/EC2
+
+6. **Elastic Load Balancer (ELB) – Traffic Distribution**
+
+The ALB (Application Load Balancer) distributes user requests across EC2 instances or Lambda functions.
+
+The reasons for selection are as follows:
+    • Provides health checks and fault tolerance
+    • Supports path-based routing (important for API and asset endpoints)
+    • Ensures high availability and automatic failover
 
 
 
