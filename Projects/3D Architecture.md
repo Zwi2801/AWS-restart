@@ -19,6 +19,7 @@ Our team took on the role of Cloud Practitioners and designed an AWS architectur
 
                                     Core AWS services selected and why we chose them for the Architecture
 
+
 1. **Amazon S3 – Storage for 3D Assets**
 
 Amazon S3 is used to store all 3D product models, textures, images, and static website assets.
@@ -67,7 +68,7 @@ The reasons for selection are as follows:
     • DynamoDB offers millisecond latency for product browsing
     • Both scale easily and integrate with Lambda/EC2
 
-6. **Elastic Load Balancer (ELB) – Traffic Distribution**
+5. **Elastic Load Balancer (ELB) – Traffic Distribution**
 
 The ALB (Application Load Balancer) distributes user requests across EC2 instances or Lambda functions.
 
@@ -75,6 +76,25 @@ The reasons for selection are as follows:
     • Provides health checks and fault tolerance
     • Supports path-based routing (important for API and asset endpoints)
     • Ensures high availability and automatic failover
+
+6. **Amazon Route 53 – Domain & DNS Management**
+
+Route 53 manages the domain and routes traffic to CloudFront or ELB.
+
+The reasons for selection are as follows:
+    • Highly available DNS service
+    • Supports health checks and routing policies
+    • Integrates well with CloudFront for global performance
+
+7. CloudWatch & Trusted Advisor – Monitoring & Optimization
+
+These services monitor logs, application performance, and system metrics.
+
+The reasons for selection are as follows:
+
+    • CloudWatch provides real-time alerts, metrics, and dashboards
+    • Trusted Advisor helps reduce cost, improve security, and detect misconfigurations
+    • Ensures the platform remains reliable and optimized
 
 
 
