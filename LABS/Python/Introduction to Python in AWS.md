@@ -10,6 +10,9 @@ AWS Cloud9 is the service I used to work with Python, which is a cloud-based dev
 
 Using Cloud9 was quite seamless and exciting as it was easy to write code with Python, and execute programs in real time. The environment provided a code editor, terminal, and file management tools all in one place. Working in Cloud9 showed how Python can be used in a cloud environment, which is useful for automation and cloud-based tasks.
 
+<img width="2865" height="843" alt="image" src="https://github.com/user-attachments/assets/fa3709ce-8faa-4cc4-b497-c6f0f947c6d0" />
+
+
 
 
 
