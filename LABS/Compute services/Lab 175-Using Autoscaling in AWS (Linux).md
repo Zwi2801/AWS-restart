@@ -57,6 +57,13 @@ In this final task, I started by verifying that both the auto scaling configurat
 
                   Key Takeaways, difficulties encountered and how I resolved them
 
+1. **AWS CLI enables full infrastructure control from the command line**- I was able to create EC2 instances and AMIs programmatically, which is ideal for automation and repeatable deployments.
+2. **Amazon Machine Images (AMIs) act as reusable blueprints**- I created a custom AMI that was able to allow consistent and reliable launching of identical EC2 instances across environments.
+3. **Auto Scaling improves availability and performance**- I learned that Auto Scaling automatically adjusts the number of instances in response to changes in workload, ensuring applications remain responsive under load.
+4. **Elastic Load Balancing distributes traffic efficiently**- The knowledge I had about application Load Balancers evenly distributing incoming traffic across multiple EC2 instances and Availability Zones was definitely enhanced.
+5. **Scaling policies are driven by CloudWatch metrics**- I discovered how CPU utilization metrics can trigger scale-out and scale-in actions without manual intervention.
+6. **Automation reduces operational overhead**- Lastly, I saw how benefial it is that you can Launch templates, Auto Scaling groups, and AMIs to eliminate repetitive manual configuration tasks.
+
 
 
 
