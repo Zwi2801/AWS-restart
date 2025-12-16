@@ -72,7 +72,9 @@ In this task, i followed the following steps to resize my instance:
 It is possible to delete your instance when you no longer need it which is referred to as terminating your instance. You cannot connect to or restart an instance after it has been terminated. I initially attempted to terminate the instance, but the termination failed, confirming that termination protection was working correctly. I then disabled termination protection in the instance settings then I successfully terminated the instance only after I disabled the termination protection. The instance was permanently deleted together with ts associated resources.
 <img width="1359" height="731" alt="image" src="https://github.com/user-attachments/assets/bc732813-304b-4065-86d9-b4c41a834805" />
 
+              Key Takeaways, difficulties that may have been encountered and how I resolved them
 
+In this lab, I successfully launched, managed, monitored, scaled, and terminated an Amazon EC2 instance. The lab provided practical experience with key EC2 features, including security groups, monitoring, scalability, and termination protection. I also learned that as your needs change, you might find that your instance is over-utilized (too small) or under-utilized (too large), so, it is possible and quite easy to change the instance type. For example, if a t3.micro instance is too small for its workload, you can change it to an m5.medium instance. Similarly, you can change the size of a disk. Lastly, we can enable termination protection to avoid accidental resource deletions and easily disable it if we no longer need to use the instance and would like to delete it. Overall, this exercise improved my understanding of how cloud-based compute resources are deployed and managed in AWS. 
 
 
 
