@@ -11,3 +11,22 @@ La Lumiere is the restaurant we selected to work with. La Lumiere offers a fine 
 The main purpose of this project was to create a simple, user-friendly website for La Lumiere restaurant that allows customers to place orders and make reservations online, helping the restaurant streamline its operations. Another key objective was to host the website on AWS using cloud services, specifically Amazon S3 which then highlighted the benefits of cloud migration, including scalability, reliability, and cost-effectiveness. Using other AWS services to get a more in-depth understanding was also encouraged.
 
 In addition to building the website, I was required to prepare a presentation explaining how migrating the restaurant’s digital presence to AWS would improve efficiency, scalability, and reliability. The presentation was designed for a business-focused audience, such as the restaurant owner or a mock decision-making panel.
+
+                                        Website Outline and Functionality
+
+The La Lumiere website was designed to be easily accessible, easy to navigate and definitely user friendly. The home page introduces the restaurant and gives visitors a welcoming first impression and provides an overview of the restaurant’s type of cuisine offered and how to make a reservation or an order.
+
+To address he difficulties with managing the large number of bookings and reservations, the website includes a booking form where customers can request table reservations and an order submission form for food orders. After submitting a form, customers are directed to a confirmation page, which reassures them that their request has been received. The website uses minimal colours to ensure readability while still incorporating images to enhance the overall design and user experience.
+
+
+
+
+
+
+
+
+
+
+
+
+
