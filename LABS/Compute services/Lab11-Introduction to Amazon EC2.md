@@ -56,6 +56,17 @@ I refreshed the browser and successfully viewed the web page after saving the ru
 
 <img width="1138" height="236" alt="image" src="https://github.com/user-attachments/assets/be7f4aa6-7390-4cf1-8999-05134ab52b5b" />
 
+**Task 4- Resize Your Instance: Instance Type and EBS Volume**
+
+In this task, i followed the following steps to resize my instance:
+
+1. Stopping the Instance- I stopped the EC2 instance to allow configuration changes.
+2. Changing the Instance Type- I changed the instance type from t3.micro to t3.small, doubling the available memory.
+3. Resizing the EBS Volume- I increased the root EBS volume size from 8 GiB to 10 GiB.
+4. Restarting the Instance- I restarted the instance to apply the new configuration.
+
+
+
 
 
 
