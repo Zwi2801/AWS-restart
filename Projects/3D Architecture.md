@@ -101,6 +101,8 @@ The reasons for selection are as follows:
     • Trusted Advisor helps reduce cost, improve security, and detect misconfigurations
     • Ensures the platform remains reliable and optimized
 
+             
+              
               Meeting Key System Requirements
 
 1. High Availability
