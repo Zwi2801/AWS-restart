@@ -65,6 +65,14 @@ In this task, i followed the following steps to resize my instance:
 3. Resizing the EBS Volume- I increased the root EBS volume size from 8 GiB to 10 GiB.
 4. Restarting the Instance- I restarted the instance to apply the new configuration.
 
+<img width="1328" height="730" alt="image" src="https://github.com/user-attachments/assets/c87c6ef8-8baf-4f9b-a065-191f4330a238" />
+
+**Task 5- Test Termination Protection**
+
+It is possible to delete your instance when you no longer need it which is referred to as terminating your instance. You cannot connect to or restart an instance after it has been terminated. I initially attempted to terminate the instance, but the termination failed, confirming that termination protection was working correctly. I then disabled termination protection in the instance settings then I successfully terminated the instance only after I disabled the termination protection. The instance was permanently deleted together with ts associated resources.
+<img width="1359" height="731" alt="image" src="https://github.com/user-attachments/assets/bc732813-304b-4065-86d9-b4c41a834805" />
+
+
 
 
 
