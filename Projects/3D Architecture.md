@@ -161,12 +161,15 @@ The reasons for selection are as follows:
                                              Design Challenges and Trade-offs
 
 Challenge 1: Handling large 3D model files
+
 Solution: Compress assets, use CloudFront caching, and enable S3 Transfer Acceleration.
 
 Challenge 2: Balancing cost and performance
+
 Solution: Use Lambda for low-traffic periods and EC2 Auto Scaling for peak hours.
 
 Challenge 3: Managing two databases (RDS + DynamoDB)
+
 Solution: Use RDS for transactional consistency (orders) and DynamoDB for high-speed reads (products). This hybrid approach ensures both performance and structure.
               
 
