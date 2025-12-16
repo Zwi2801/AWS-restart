@@ -40,6 +40,11 @@ Verified that the results.txt file was created and was running then I also confi
 
 
 
+This lab reinforced both cloud infrastructure fundamentals and basic scripting skills, making it a valuable hands-on exercise for understanding how applications and servers are managed in real-world AWS environments.
+
+
+
+
 
 
 
