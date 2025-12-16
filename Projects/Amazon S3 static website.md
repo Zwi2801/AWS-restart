@@ -18,6 +18,20 @@ The La Lumiere website was designed to be easily accessible, easy to navigate an
 
 To address he difficulties with managing the large number of bookings and reservations, the website includes a booking form where customers can request table reservations and an order submission form for food orders. After submitting a form, customers are directed to a confirmation page, which reassures them that their request has been received. The website uses minimal colours to ensure readability while still incorporating images to enhance the overall design and user experience.
 
+Some of the pictures of the "Best sellers" shown on the website hosted on S3 as as ffollows: 
+
+<img width="2179" height="1311" alt="image" src="https://github.com/user-attachments/assets/0cf5bf61-d510-4efe-878a-1019aa4fb4c1" />
+
+<img width="2179" height="1311" alt="image" src="https://github.com/user-attachments/assets/aba1a621-9077-4bc4-a671-36ea81b421a4" />
+
+                                         AWS Services Used in the Project
+
+Amazon S3 was chosen as the primary host for the static website because it is highly reliable, secure, and cost-effective, especially for static websites. There were other AWS services such as AWS Lambda and Amazon DynamoDB to enhance the website and its functionality to be enhanced.
+
+While the project focuses on static hosting, the architecture can later be expanded to include databases, serverless backends, or analytics services as the business grows.
+
+                                           Key Benefits of AWS for La Lumiere
+
 
 
 
