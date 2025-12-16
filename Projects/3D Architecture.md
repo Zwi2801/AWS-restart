@@ -17,6 +17,31 @@ Our team took on the role of Cloud Practitioners and designed an AWS architectur
 5. To put measure in place to ensure that the architecture optimizes costs by using managed services, auto scaling, and monitoring tools
 6. Clearly explain architectural decisions and how each AWS service supports the system’s requirements
 
+                                    Core AWS services selected and why we chose them for the Architecture
+
+1. **Amazon S3 – Storage for 3D Assets**
+
+Amazon S3 is used to store all 3D product models, textures, images, and static website assets.
+
+The reasons for selection are as follows:
+    • Highly durable (11 9’s durability)
+    • Scales automatically for millions of asset requests
+    • Integrates directly with CloudFront for low-latency delivery
+    • Cost-effective object storage
+
+2. **Amazon CloudFront – Global CDN for Content Delivery**
+
+CloudFront caches 3D assets, images, and website static files across global edge locations.
+
+The reasons for selection are as follows:
+
+    • Reduces latency for global users
+    • Protects the backend using AWS Shield and WAF integration
+    • Improves performance for heavy 3D content
+    • Decreases S3 and backend load
+
+
+
 
 
 
