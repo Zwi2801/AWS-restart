@@ -97,15 +97,13 @@ These services monitor logs, application performance, and system metrics.
 
 The reasons for selection are as follows:
 
-    • CloudWatch provides real-time alerts, metrics, and dashboards
-    • Trusted Advisor helps reduce cost, improve security, and detect misconfigurations
-    • Ensures the platform remains reliable and optimized
+  1. CloudWatch provides real-time alerts, metrics, and dashboards
+  2. Trusted Advisor helps reduce cost, improve security, and detect misconfigurations
+  3.  Ensures the platform remains reliable and optimized
 
-             
-              
               Meeting Key System Requirements
 
-1. High Availability
+1. **High Availability**
 
     • Route 53 + CloudFront provide multi-region distribution
    
@@ -115,34 +113,49 @@ The reasons for selection are as follows:
    
     • S3 provides 99.99% availability for assets
 
-3. Scalability
+3. **Scalability**
 
     • Auto Scaling handles unpredictable traffic spikes
+   
     • DynamoDB offers on-demand scaling
+   
     • CloudFront caches content globally, reducing backend load
+   
     • Lambda automatically scales to thousands of requests per second
+   
 
-4. Performance
+5. **Performance**
 
     • CloudFront drastically reduces latency for 3D models
+   
     • DynamoDB provides single-digit millisecond reads
+   
     • EC2 instances or Lambda functions process API requests quickly
+   
     • S3 ensures fast retrieval for large 3D assets
 
-5. Security
+7. **Security**
 
     • AWS WAF on CloudFront blocks malicious traffic
+   
     • IAM roles restrict resource access
+   
     • Security groups protect EC2 instances
+   
     • RDS has encryption, backups, and Multi-AZ deployment
+   
     • S3 supports bucket policies and encryption
 
-6. Cost Optimization
+9. **Cost Optimization**
 
     • S3 and CloudFront reduce expensive compute usage
+   
     • Auto Scaling prevents over-provisioning
+   
     • Lambda eliminates server idle cost
+   
     • Trusted Advisor recommends savings opportunities
+   
     • DynamoDB on-demand mode reduces unnecessary database cost
               
 
