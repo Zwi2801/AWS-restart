@@ -82,6 +82,7 @@ The reasons for selection are as follows:
 Route 53 manages the domain and routes traffic to CloudFront or ELB.
 
 The reasons for selection are as follows:
+   
     • Highly available DNS service
     • Supports health checks and routing policies
     • Integrates well with CloudFront for global performance
