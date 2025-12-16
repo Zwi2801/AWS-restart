@@ -12,7 +12,8 @@ In this lab, I got hands-on and practical experience with Amazon DynamoDB throug
 5. Querying data from a DynamoDB table to retrieve the data
 6. Deleting the Music table, which will resulted in the deletion of all the data in the table
 
-      Process followed- Tasks breakdown
+
+                      Process followed- Task Breakdown
 
  **Task1: Create a new table**
 
