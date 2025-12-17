@@ -11,9 +11,15 @@ This outstanding program equipped me with both practical and technical tools and
 5. Professional Skills – GitHub, documentation and effective communication, teamwork, and problem-solving.
    
 
-                                                   Topics:
+                                                   Topics covered:
 Compute
 Storage
 Databases
 Networking
 Resources
+
+                                              Skills & Technologies
+
+Core Services: EC2, S3, CloudFormation, RDS, VPC, IAM, Python, Linux
+
+Key Concepts: Security, Performance Efficiency ,Scalability, Agility, Cost Optimization, Infrastructure as Code
