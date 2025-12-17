@@ -21,9 +21,10 @@ Resources
 
                                           Certifications:
 
-
-
-
+  1. AWS SimuLearn: Databases in Practice
+  2. AWS Simulearn: Core Security Concepts
+  3. AWS Simulearn: Networking Concepts
+  4.  AWS Simulearn: File Systems in the cloud
 
 
                                               Skills & Technologies
