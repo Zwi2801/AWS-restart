@@ -15,3 +15,32 @@ The main objective of this project was to design and deploy a functional chatbot
 3. Designing a simple knowledge quiz with customized logic
 4. Providing clear feedback for both correct and incorrect user responses
 5. Demonstrating the chatbot through a live presentation and explaining its functionality clearly
+
+                                    Process Outline- Tasks Carried Out When Creating the Chatbot
+
+The project began by accessing the AWS Management Console and navigating to Amazon Lex. A new chatbot was created using the English (ZA) language setting with basic configuration options to keep the focus on learning core concepts. The project was addressed in two parts as per the instructions provided in the outline of the project.
+
+**Part 1**
+
+In Part 1, I created a single intent related to Amazon S3. This involved defining one user utterance and linking it to a clear, informative response. This step helped establish an understanding of how Lex matches user input to intents and delivers responses.
+
+
+**Part 2**
+
+Part 2 is where the chatbot was expanded to include a quiz feature. A new quiz intent was created with multiple utterances allowing users to start the quiz. Quiz questions were designed around Amazon S3 concepts, and multiple-choice answers were provided. Branching logic was implemented so the chatbot could identify whether the user’s answer was correct or incorrect and respond accordingly.
+
+**Testing the chatbot**
+
+Testing played a major role throughout the development process. The chatbot was tested using different inputs to ensure it responded correctly in all scenarios and that the quiz flow remained smooth and user-friendly.
+
+Finally, I prepared a short presentation to demonstrate the chatbot to the fictional client, CloudLearners Inc. This included explaining Amazon Lex, outlining client requirements, walking through the chatbot’s design, and showcasing the live chatbot in action.
+
+
+
+
+
+
+
+
+
+
