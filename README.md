@@ -11,7 +11,11 @@ This outstanding program equipped me with both practical and technical tools and
 5. Professional Skills – GitHub, documentation and effective communication, teamwork, and problem-solving.
    
 
-                                                   Topics covered:
+
+
+
+     Topics covered:
+
 Compute
 Storage
 Databases
